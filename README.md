@@ -15,7 +15,7 @@
 - Playback controls (previous, play/pause, next)
 - Timeline with seeking
 - Volume control
-- Floating window mode with drag support (`--swim`)
+- Floating window mode with drag support
 - Dark gradient background with rounded corners
 - HTTP album art support (via curl + ffmpeg)
 
@@ -91,7 +91,7 @@ pw-menu
 
 * pipewire
 ```sh
-pw-menu --swim 
+pw-menu --pipewire
 ```
 * PulseAudio
 ```sh
