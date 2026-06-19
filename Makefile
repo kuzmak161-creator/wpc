@@ -8,7 +8,7 @@ BUILDDIR := build
 UNAME := $(shell uname -o 2>/dev/null || uname -s)
 
 ifeq ($(UNAME), Android)
-    # В Termux переменная PREFIX уже указывает на /data/data/com.termux/files/usr
+    
     BINDIR := $(PREFIX)/bin
 else
     PREFIX := /usr/local
