@@ -1,7 +1,7 @@
 CXX      := g++
 CXXFLAGS := $(shell pkg-config --cflags gtk+-3.0 cairo) -std=c++17 -pthread -O2
 LIBS     := $(shell pkg-config --libs gtk+-3.0 cairo)
-TARGET   := wpc
+TARGET   := PW-menu
 SRC      := player.cpp
 BUILDDIR := build
 
