@@ -86,13 +86,17 @@ Installs to:
 PW-menu
 ```
 
-* Floating window + PipeWire
+* pipewire
 ```sh
-PW-menu --swim --pipewire
+PW-menu --swim 
 ```
 * PulseAudio
 ```sh
 PW-menu --pulse
+```
+
+```sh
+PW-menu --swim
 ```
 
 * Help
