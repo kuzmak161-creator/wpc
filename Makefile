@@ -31,7 +31,7 @@ install: $(BUILDDIR)/$(TARGET)
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
-	@echo "✓ Удалён из $(BINDIR)/$(TARGET)"
+	@echo "✓ remotely from $(BINDIR)/$(TARGET)"
 
 clean:
 	rm -rf $(BUILDDIR)
