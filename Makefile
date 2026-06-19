@@ -1,14 +1,14 @@
 CXX      := g++
 CXXFLAGS := $(shell pkg-config --cflags gtk+-3.0 cairo) -std=c++17 -pthread -O2
 LIBS     := $(shell pkg-config --libs gtk+-3.0 cairo)
-TARGET   := PW-menu
+TARGET   := pw-menu
 SRC      := player.cpp
 BUILDDIR := build
 
 UNAME := $(shell uname -o 2>/dev/null || uname -s)
 
 ifeq ($(UNAME), Android)
-	PREFIX := $(HOME)/.local/bin
+	PREFIX := $(PREFIX)/bin
 else
 	PREFIX := /usr/local/bin
 endif
