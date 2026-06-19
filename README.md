@@ -36,16 +36,16 @@
 
 * Arch / Manjaro
 ```sh
-pacman -S gtk3 cairo playerctl curl ffmpeg gcc 
+pacman -S gtk3 cairo playerctl curl ffmpeg gcc pkg-config
 ```
 
 * Gentoo
 ```sh
-emerge gtk+:3 cairo playerctl curl ffmpeg gcc
+emerge gtk+:3 cairo playerctl curl ffmpeg gcc pkg-config
 ```
 * Termux (Android)
 ```sh
-pkg install clang pkg-config gtk3 cairo playerctl curl ffmpeg gcc
+pkg install clang pkg-config gtk3 cairo playerctl curl ffmpeg gcc pkg-config
 ```
 * Debian 
 ```sh
