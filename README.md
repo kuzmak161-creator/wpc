@@ -33,14 +33,17 @@
 
 ## Dependencies
 
-```bash
-# Arch / Manjaro
+
+* Arch / Manjaro
+```sh
 pacman -S gtk3 cairo playerctl curl ffmpeg
 
-# Gentoo
+* Gentoo
+```sh
 emerge gtk+:3 cairo playerctl curl ffmpeg
-
-# Termux (Android)
+```
+* Termux (Android)
+```sh
 pkg install gtk3 cairo playerctl curl ffmpeg
 ```
 
