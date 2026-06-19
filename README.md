@@ -1,4 +1,4 @@
-#PW-memu - player widget  menu
+# PW-memu - player widget  menu
 
 > A minimalist GTK widget for controlling your music player — and not only that.
 
