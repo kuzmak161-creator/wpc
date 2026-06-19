@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="35%" r="65%">
+      <stop offset="0%"   stop-color="#1a3a6e"/>
+      <stop offset="100%" stop-color="#050c1f"/>
+    </radialGradient>
+    <radialGradient id="disc" cx="38%" cy="32%" r="60%">
+      <stop offset="0%"   stop-color="#2a4a9e"/>
+      <stop offset="60%"  stop-color="#0d1f4f"/>
+      <stop offset="100%" stop-color="#040810"/>
+    </radialGradient>
+    <radialGradient id="hole" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#060606"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Фон -->
+  <rect width="128" height="128" rx="22" fill="url(#bg)"/>
+
+  <!-- Тень диска -->
+  <circle cx="66" cy="67" r="46" fill="#00000055"/>
+
+  <!-- Диск -->
+  <circle cx="64" cy="64" r="46" fill="url(#disc)"/>
+
+  <!-- Дорожки -->
+  <circle cx="64" cy="64" r="38" fill="none" stroke="#00000033" stroke-width="1.2"/>
+  <circle cx="64" cy="64" r="32" fill="none" stroke="#00000033" stroke-width="1.2"/>
+  <circle cx="64" cy="64" r="26" fill="none" stroke="#00000033" stroke-width="1.2"/>
+  <circle cx="64" cy="64" r="20" fill="none" stroke="#00000033" stroke-width="1.2"/>
+
+  <!-- Блик -->
+  <ellipse cx="48" cy="42" rx="14" ry="9" fill="#ffffff0d" transform="rotate(-30 48 42)"/>
+
+  <!-- Центральное отверстие -->
+  <circle cx="64" cy="64" r="10" fill="url(#hole)"/>
+  <!-- Зелёная точка (как в коде) -->
+  <circle cx="64" cy="64" r="5"  fill="#a4c639"/>
+
+  <!-- Нота -->
+  <g fill="#a4c639" opacity="0.92">
+    <!-- Кружок ноты -->
+    <ellipse cx="78" cy="52" rx="5.5" ry="4.5" transform="rotate(-20 78 52)"/>
+    <!-- Штиль -->
+    <rect x="82.8" y="36" width="2.5" height="17" rx="1.2"/>
+    <!-- Флажок -->
+    <path d="M85.3 36 Q95 40 90 48 Q88 43 85.3 42 Z"/>
+  </g>
+</svg>
