@@ -147,7 +147,7 @@ chmod +x ~/.config/i3blocks/wpc_btn.sh
 
 | Platform             | Status |
 |----------------------|--------|
-| Termux X11           | works✅|
+| Termux               | works✅|
 | Gentoo               | works✅|
 
 
