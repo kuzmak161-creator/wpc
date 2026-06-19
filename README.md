@@ -37,6 +37,7 @@
 * Arch / Manjaro
 ```sh
 pacman -S gtk3 cairo playerctl curl ffmpeg
+```
 
 * Gentoo
 ```sh
