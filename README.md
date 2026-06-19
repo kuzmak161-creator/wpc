@@ -2,7 +2,7 @@
 
 > A minimalist GTK widget for controlling your music player — and not only that.
 
-![Screenshot](./.photo/screenshot.jpg)
+![S](./.photo/screenshot.jpg)
 
 
 
