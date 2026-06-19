@@ -97,7 +97,7 @@ pw-menu --pipewire
 ```sh
 pw-menu --pulse
 ```
-
+* floating window
 ```sh
 pw-menu --swim
 ```
