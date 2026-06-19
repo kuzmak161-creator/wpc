@@ -48,6 +48,7 @@ emerge gtk+:3 cairo playerctl curl ffmpeg gcc pkg-config
 ```sh
 pkg install clang pkg-config gtk3 cairo curl ffmpeg gcc git
 ```
+(in official repositories termux there is no playerctl.) 
 ```sh
 git clone https://github.com/altdesktop/playerctl && cd playerctl && make && make install
 ```
