@@ -1,4 +1,4 @@
-# WPC — Widget Player Control
+# WPC - Widget Player Control
 
 > A minimalist GTK widget for controlling your music player — and not only that.
 
