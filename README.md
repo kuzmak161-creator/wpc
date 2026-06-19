@@ -3,7 +3,7 @@
 > A minimalist GTK widget for controlling your music player — and not only that.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Android%20(Termux)-blue)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20termux%20(Android-blue)
 ![Language](https://img.shields.io/badge/language-C%2B%2B17-orange)
 
 ---
