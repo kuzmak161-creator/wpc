@@ -1,4 +1,4 @@
-# WPC - Widget Player Control
+# PW-memu - player widget  menu
 
 > A minimalist GTK widget for controlling your music player — and not only that.
 
@@ -53,15 +53,15 @@ pkg install gtk3 cairo playerctl curl ffmpeg
 ## Build
 
 ```bash
-git clone https://github.com/kuzmak161-creator/wpc
-cd wpc
+git clone https://github.com/kuzmak161-creator/PW-menu
+cd PW-menu
 make
 ```
 
 Or manually:
 
 ```bash
-g++ -o build/wpc player.cpp \
+g++ -o build/PW-menu player.cpp \
     $(pkg-config --cflags --libs gtk+-3.0 cairo) \
     -std=c++17 -pthread -O2
 ```
@@ -83,21 +83,21 @@ Installs to:
 ## Usage
 * Default (ALSA)
 ```bash
-wpc
+PW-menu
 ```
 
 * Floating window + PipeWire
 ```sh
-wpc --swim --pipewire
+PW-menu --swim --pipewire
 ```
 * PulseAudio
 ```sh
-wpc --pulse
+PW-menu --pulse
 ```
 
 * Help
 ```sh
-wpc --help
+PW-menu --help
 ```
 
 ---
@@ -118,10 +118,10 @@ Create `~/.config/i3blocks/wpc_btn.sh`:
 ```bash
 #!/bin/bash
 if [ "$BLOCK_BUTTON" = "1" ]; then
-    if pgrep -x "wpc" > /dev/null; then
-        pkill -x "wpc"
+    if pgrep -x "PW-menu" > /dev/null; then
+        pkill -x "PW-menu"
     else
-        wpc --swim &
+        PW-menu &
     fi
 fi
 
@@ -133,7 +133,7 @@ if [ "$STATUS" = "Playing" ]; then
 elif [ "$STATUS" = "Paused" ]; then
     echo "|| $TITLE"
 else
-    echo "[wpc]"
+    echo "[PW-menu]"
 fi
 ```
 
