@@ -111,6 +111,10 @@ pw-menu --swim
 ```sh
 pw-menu --help
 ```
+or 
+```sh
+pw-menu -h
+```
 
 ---
 
