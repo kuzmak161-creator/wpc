@@ -5,7 +5,6 @@ TARGET   := PW-menu
 SRC      := player.cpp
 BUILDDIR := build
 
-# Определяем куда ставить в зависимости от системы
 UNAME := $(shell uname -o 2>/dev/null || uname -s)
 
 ifeq ($(UNAME), Android)
