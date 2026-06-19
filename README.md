@@ -115,7 +115,7 @@ Add to `~/.config/i3blocks/config`:
 
 ```ini
 [PW-menu]
-command=$HOME/.config/i3blocks/pw-menu_btn.sh
+command=~/.config/i3blocks/pw-menu_btn.sh
 interval=2
 color=#a4c639
 ```
