@@ -45,7 +45,7 @@ emerge gtk+:3 cairo playerctl curl ffmpeg gcc pkg-config
 ```
 * Termux (Android)
 ```sh
-pkg install clang pkg-config gtk3 cairo playerctl curl ffmpeg gcc pkg-config
+pkg install clang pkg-config gtk3 cairo playerctl curl ffmpeg gcc
 ```
 * Debian 
 ```sh
