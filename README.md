@@ -61,7 +61,7 @@ make
 Or manually:
 
 ```bash
-g++ -o build/PW-menu player.cpp \
+g++ -o build/pw-menu player.cpp \
     $(pkg-config --cflags --libs gtk+-3.0 cairo) \
     -std=c++17 -pthread -O2
 ```
@@ -83,25 +83,25 @@ Installs to:
 ## Usage
 * Default (ALSA)
 ```bash
-PW-menu
+pw-menu
 ```
 
 * pipewire
 ```sh
-PW-menu --swim 
+pw-menu --swim 
 ```
 * PulseAudio
 ```sh
-PW-menu --pulse
+pw-menu --pulse
 ```
 
 ```sh
-PW-menu --swim
+pw-menu --swim
 ```
 
 * Help
 ```sh
-PW-menu --help
+pw-menu --help
 ```
 
 ---
@@ -112,20 +112,20 @@ Add to `~/.config/i3blocks/config`:
 
 ```ini
 [PW-menu]
-command=$HOME/.config/i3blocks/PW-menu_btn.sh
+command=$HOME/.config/i3blocks/pw-menu_btn.sh
 interval=2
 color=#a4c639
 ```
 
-Create `~/.config/i3blocks/PW-menu_btn.sh`:
+Create `~/.config/i3blocks/pw-menu_btn.sh`:
 
 ```bash
 #!/bin/bash
 if [ "$BLOCK_BUTTON" = "1" ]; then
-    if pgrep -x "PW-menu" > /dev/null; then
-        pkill -x "PW-menu"
+    if pgrep -x "pw-menu" > /dev/null; then
+        pkill -x "pw-menu"
     else
-        PW-menu &
+        pw-menu &
     fi
 fi
 
@@ -142,7 +142,7 @@ fi
 ```
 
 ```bash
-chmod +x ~/.config/i3blocks/wpc_btn.sh
+chmod +x ~/.config/i3blocks/pw-menu_btn.sh
 ```
 
 ---
@@ -153,7 +153,7 @@ chmod +x ~/.config/i3blocks/wpc_btn.sh
 |----------------------|--------|
 | Termux               | works✅|
 | Gentoo               | works✅|
-
+| Debian               | works✅|
 
 ---
 
