@@ -28,11 +28,11 @@
 
 ## Audio Driver Support
 
-| Flag          | Driver          | Tool     |
-|---------------|-----------------|----------|
-| `--alsa`      | ALSA (default)  | `amixer` |
-| `--pipewire`  | PipeWire        | `wpctl`  |
-| `--pulse`     | PulseAudio      | `pactl`  |
+| Flag            | Driver          | Tool     |
+|-----------------|-----------------|----------|
+| `--alsa`        | ALSA (default)  | `amixer` |
+| `--pipewire`    | PipeWire        | `wpctl`  |
+| `--pulse`       | PulseAudio      | `pactl`  |
 
 ---
 
