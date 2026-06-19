@@ -152,11 +152,11 @@ chmod +x ~/.config/i3blocks/pw-menu_btn.sh
 
 ## Tested On
 
-| Platform             | Status |
-|----------------------|--------|
-| Termux               | works✅|
-| Gentoo               | works✅|
-| Debian               | works✅|
+| Platform| architecture| Status |
+|---------|-------------|--------|
+| Termux  | aarch64     | works✅|
+| Gentoo  | x86-64      | works✅|
+| Debian  | aarch64     | works✅|
 
 ---
 
