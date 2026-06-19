@@ -1,6 +1,8 @@
 # PW-memu - player widget  menu
 
 > A minimalist GTK widget for controlling your music player — and not only that.
+![logo](./.photo/logo.svg)
+---
 
 ![S](./.photo/screenshot.jpg)
 ![License](https://img.shields.io/badge/license-MIT-green)
