@@ -107,13 +107,13 @@ PW-menu --help
 Add to `~/.config/i3blocks/config`:
 
 ```ini
-[wpc]
-command=$HOME/.config/i3blocks/wpc_btn.sh
+[PW-menu]
+command=$HOME/.config/i3blocks/PW-menu_btn.sh
 interval=2
 color=#a4c639
 ```
 
-Create `~/.config/i3blocks/wpc_btn.sh`:
+Create `~/.config/i3blocks/PW-menu_btn.sh`:
 
 ```bash
 #!/bin/bash
