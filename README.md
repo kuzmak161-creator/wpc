@@ -159,6 +159,14 @@ or
 ```sh
 pw-menu -h
 ```
+* version 
+```sh
+pw-menu -v
+```
+or
+```sh
+pw-menu -version 
+```
 
 ---
 
