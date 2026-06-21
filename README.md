@@ -20,7 +20,7 @@
 
 ## Features
 
-- Spinning disc or square cover art visualizer
+- Spinning disc
 - Track title and artist in real time
 - Playback controls (previous, play/pause, next)
 - Timeline with seeking
