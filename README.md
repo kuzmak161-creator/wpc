@@ -76,10 +76,6 @@ playerctl is not in the official Termux repositories, build it manually:
 ```sh
 git clone https://github.com/altdesktop/playerctl && cd playerctl && make && make install
 ```
-mpv-mpris (optional, for mpv support):
-```sh
-git clone https://github.com/hoyon/mpv-mpris && cd mpv-mpris && make && make install
-```
 
 * Debian
 ```sh
