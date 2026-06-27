@@ -1,6 +1,6 @@
 # PW-menu - player widget menu
 
-> A minimalist GTK widget for controlling your music player — and not only that.
+> A minimalist GTK menu for controlling your music player — and not only that.
 
 ---
 
