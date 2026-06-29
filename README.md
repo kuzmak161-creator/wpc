@@ -25,7 +25,7 @@
 - Playback controls (previous, play/pause, next)
 - Timeline with seeking
 - Volume control
-- Player switcher (switch between running players on the fly)
+- Menu switcher (switch between running menu on the fly)
 - Settings window with live theme switching
 - Floating window mode with drag support
 - Dark gradient background with rounded corners
@@ -60,12 +60,12 @@
 
 * Arch / Manjaro
 ```sh
-pacman -S gtk3 cairo playerctl curl ffmpeg gcc pkg-config
+pacman -S gtk3 cairo playerctl curl ffmpeg gcc pkg-config gcc git
 ```
 
 * Gentoo
 ```sh
-emerge gtk+:3 cairo playerctl curl ffmpeg gcc pkg-config
+emerge gtk+:3 cairo playerctl curl ffmpeg gcc pkg-config gcc git
 ```
 
 * Termux (Android)
@@ -105,9 +105,6 @@ Installs to:
 - `$PREFIX/bin` on Android (Termux)
 
 Optional — install mpv-mpris (prompted automatically):
-```bash
-make mpv-mpris
-```
 
 ---
 
